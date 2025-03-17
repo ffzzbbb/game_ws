@@ -1,0 +1,6 @@
+source;share/xiao_wang/hook/pythonpath.ps1
+source;share/xiao_wang/hook/pythonpath.dsv
+source;share/xiao_wang/hook/pythonpath.sh
+source;share/xiao_wang/hook/ament_prefix_path.ps1
+source;share/xiao_wang/hook/ament_prefix_path.dsv
+source;share/xiao_wang/hook/ament_prefix_path.sh

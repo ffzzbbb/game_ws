@@ -1,0 +1,3 @@
+[console_scripts]
+xiaowang_node = xiao_wang.xiaowang:main
+
