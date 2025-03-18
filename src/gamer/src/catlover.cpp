@@ -21,8 +21,8 @@ public:
     {
         RCLCPP_INFO(this->get_logger(), "%s:I love cat!", name.c_str());
           // 创建一个订阅者订阅话题
-        sub_game = this->create_subscription<std_msgs::msg::String>("happy_xiaoxiao_cat", 10, std::bind(&gamer::game_callback,this,_1));
-        give_money = this->create_publisher<std_msgs::msg::UInt32>("game money", 10);
+        sub_game = this->create_subscription<std_msgs::msg::String>("happy_xiaoxiao_cats", 10, std::bind(&gamer::game_callback,this,_1));
+        give_money = this->create_publisher<std_msgs::msg::UInt32>("happy_xiaoxiao_cats_money", 10);
     }
     };
 
